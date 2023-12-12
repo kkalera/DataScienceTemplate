@@ -56,6 +56,7 @@ You can find the notebook in this repository as `template.ipynb`.
     - Set the significance level
     - Describe assumptions
     - Describe choice of test
+    - Describe the results
 
 &nbsp;
 
@@ -63,9 +64,9 @@ You can find the notebook in this repository as `template.ipynb`.
   -
   - Define one or more prediction goals (repeat next steps for every goal)
     - Load the input data that you need
-    - Address multicollinearity if strong correlations were found during the EDA
-    - Think about using dimensionality reduction
     - Data preprocessing
+      - Address multicollinearity if strong correlations were found during the EDA
+      - Think about using dimensionality reduction
       - Label / one-hot encoding
       - Standard scaling
       - Normalization
