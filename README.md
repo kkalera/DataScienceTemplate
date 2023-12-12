@@ -2,13 +2,17 @@
 
 This repository contains a jupyter notebook that serves as a template for my data science projects. Feel free to use it for yours as well.
 
-## <b style="color:#69b3a2"> Table of Contents </b>
+You can find the notebook in this repository as `template.ipynb`.
+
+## <b style="color:#69b3a2"> Table of Contents : </b>
 
 - Introduction
   -
   - Description of the project
   - Description of the goals
   - Table of Contents
+
+&nbsp;
 
 - Setup
   -
@@ -19,6 +23,8 @@ This repository contains a jupyter notebook that serves as a template for my dat
     - Set up logging if needed
     - Set seaborn / matplotlib themes
     - Set pandas max columns options
+
+&nbsp;
 
 - Data collection
   -
@@ -32,6 +38,54 @@ This repository contains a jupyter notebook that serves as a template for my dat
     - Handling null values appropriately
     - Merging tables of data to use in EDA
 
+&nbsp;
+
 - EDA: Exploratory Data Analysis
   -
+  - Univariate exploration
+  - Multivariate exploration
+  - Correlations
+
+&nbsp;
+
+- Statistical Analysis
+  -
+  - Repeat for every hypothesis:
+    - Describe the target populations
+    - Describe the null and alternative hypothesis
+    - Set the significance level
+    - Describe assumptions
+    - Describe choice of test
+
+&nbsp;
+
+- Machine Learning
+  -
+  - Define one or more prediction goals (repeat next steps for every goal)
+    - Load the input data that you need
+    - Address multicollinearity if strong correlations were found during the EDA
+    - Think about using dimensionality reduction
+    - Data preprocessing
+      - Label / one-hot encoding
+      - Standard scaling
+      - Normalization
+      - Train - test splitting
+    - Model selection and training
+      - Explain what model you'll be using
+      - Hyperparameter tuning
+      - Model training
+    - Model evaluation
+      - Evaluate model using the metrics of choice.
+
+&nbsp;
+
+- Summary
+  -
+  - Provide an overview of the entire project with key takeaways
+
+&nbsp;
+
+- Improvements
+  -
+  - List the possible improvements that you see
 
